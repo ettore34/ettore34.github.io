@@ -58,11 +58,17 @@
 
   p { margin:0 }
   
-  hr {
-    border:none;
-    border-top:1px dotted #f00;
-    color:#fff;
-    background-color:#fff;
-    height:1px;
-    width:50%;
-    }
+  .dotted-line {
+    white-space: nowrap;
+    position: relative;
+    overflow: hidden;
+  }
+  .dotted-line:after {
+    content: "..........................................................................................................";
+    letter-spacing: 6px;
+    font-size: 30px;
+    color: #9cbfdb;
+    display: inline-block;
+    vertical-align: 3px;
+    padding-left: 10px;
+  }
