@@ -72,3 +72,10 @@
     vertical-align: 3px;
     padding-left: 10px;
   }
+
+  hr.style1 {
+    color: transparent;
+    background: none;
+    height:none;
+	border-top: 1px dashed #8c8b8b;
+}
