@@ -4,6 +4,16 @@
 }
 
 
+.center
+{
+  text-align: center;
+}
+
+.education
+{
+  /* background-color:rgb(229, 242, 201); */
+}
+
 /* The sidebar menu */
 .sidenav {
     height: 100%; /* Full-height: remove this if you want "auto" height */
