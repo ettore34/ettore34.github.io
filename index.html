@@ -31,29 +31,33 @@
         <div Style = "text-align:center" >   
                 <img src="IMG1.JPG" width="15%" height="auto%"  style = "border-radius: 50%;">
                 <br>
-                <font face = "Courier New" style="text-align:center; color:rgb(83,25,16); font-size:200%;  ">Ettore Mottola</font> 
+                <font face = "Courier New" style="text-align:center; color:rgb(83,25,16); font-size:4vw;  ">Ettore Mottola</font> 
                 <br>
                 <br>
-                <font face = "Courier New">
-                
-                <p>Pages</p>
-                <p>------------------------------</p>
-                <p><a href="/resume.html">Résumé</a></p>
-                <p>Photo Album: Coming soon</p>   
-                <p>Noticable Projects: Coming soon</p>
-                <p>------------------------------</p>
+                <font face = "Courier New" style = "font-size:3vw;">
+                    <p>Pages</p>
+                    <p>------------------------------</p>
+                    <p><a href="/resume.html">Résumé</a></p>
+                    <p>Photo Album: Coming soon</p>   
+                    <p>Noticable Projects: Coming soon</p>
+                    <p>------------------------------</p>
                 </font>
+                
                 
             
                 
                 
                
         </div>
-        <div Style = "text-align:center">   
-            <video autoplay loop>
+        <div Style = "text-align:center; position: absolute; bottom: 0px; right: 35px;">   
+            <video autoplay loop id = "vid" width = "200px" height = "auto" >
                 <source src="CatDrinkingCoffee.mp4" type="video/mp4" >
             </video>
         </div>
+
+        <script>
+                document.getElementById('vid').play();
+        </script>
         
 
     </body>
