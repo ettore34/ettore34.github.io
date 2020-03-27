@@ -95,3 +95,9 @@
     height:none;
 	border-top: 1px dashed #8c8b8b;
 }
+/* get rid of ugly border on mobile  */
+video {
+  -webkit-mask-image: -webkit-radial-gradient(white, black);
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+}
